@@ -24,6 +24,6 @@ const image2 = document.querySelectorAll('img')[1]
 console.log(image2)
 image2.style.height = '300px'
 
-// Not Working Below...Need to Debug.
-const liItem16 = document.querySelector("#item-16");
-liItem16.innerHTML = "Won't get fooled again."
+
+const liItem16 = document.querySelector("#item-16")
+document.querySelector('li')[16].innerHTML = "Won't get fooled again."
