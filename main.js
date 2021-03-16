@@ -25,6 +25,5 @@ console.log(image2)
 image2.style.height = '300px'
 
 // Not Working Below...Need to Debug.
-const item16 = list[15]
-item16.innerHTML = 'li class="item" id="item-16"</li>'
-console.log(item16)
+const liItem16 = document.querySelector("#item-16");
+liItem16.innerHTML = "Won't get fooled again."
