@@ -24,7 +24,7 @@ const image2 = document.querySelectorAll('img')[1]
 console.log(image2)
 image2.style.height = '300px'
 
-
+// Not Working Below...Need to Debug.
 const item16 = list[15]
 item16.innerHTML = 'li class="item" id="item-16"</li>'
 console.log(item16)
